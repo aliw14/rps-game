@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+}
+
+h1 {
+    margin-left: 40%;
+    color: azure;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.rock img {
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    width: 20%;
+}
+
+.paper img {
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    width: 23%;
+}
+
+.scissors img {
+    cursor: pointer;
+
+    position: absolute;
+    width: 28%;
+    left: 67%;
+}
+
+.results {
+    position: relative;
+}
+
+.ran-one {
+    position: absolute;
+    font-size: 40px;
+}
+
+.ran-two {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+button {
+
+    margin-top: 30%;
+    margin-left: 40%;
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    border-radius: 9px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.random1 img {
+    width: 0;
+}
+
+.random2 img {
+    width: 0;
+}
+
+.random3 img {
+    width: 0;
+}
